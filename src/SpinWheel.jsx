@@ -35,7 +35,7 @@ export default function SpinWheel() {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [showScratch, setShowScratch] = useState(false);
   const [stars, setStars] = useState(0);
-  const [targetStars, setTargetStars] = useState(7);
+  const [targetStars, setTargetStars] = useState(5);
 
   const wheelRef = useRef(null);
   const canvasRef = useRef(null);
